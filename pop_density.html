@@ -191,7 +191,7 @@
                 });
             });
 
-            map.on('mousemove', ({point}) => {
+            map.on('mousemove', ({ point }) => {
                 const state = map.queryRenderedFeatures(point, {
                     layers: ['state_data_layer']
                 });
